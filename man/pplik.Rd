@@ -27,7 +27,7 @@ integration.
 logical? Should function evaluations be printed?
 }}
 \value{
-estimate for \code{c} in the interval \code{[0, 1]}.
+estimate for \code{c} in the interval \eqn{[0, 1]}.
 }
 \references{
   Ripley, B. D. (1988) \emph{Statistical Inference for Spatial

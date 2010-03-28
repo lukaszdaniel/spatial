@@ -17,14 +17,13 @@ Strauss(n, c=0, r)
 number of points
 }
 \item{c}{
-parameter \code{c} in [0, 1]. \code{c} = 0 corresponds to complete inhibition at
-distances up to \code{r}.
+parameter \code{c} in \eqn{[0, 1]}. \code{c = 0} corresponds to complete inhibition at distances up to \code{r}.
 }
 \item{r}{
 inhibition distance
 }}
 \value{
-list of vectors of x and y coordinates
+list of vectors of \eqn{x} and \eqn{y} coordinates
 }
 \section{Side Effects}{
 uses the random number generator

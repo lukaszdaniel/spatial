@@ -1,5 +1,5 @@
 % file spatial/man/Kfn.Rd
-% copyright (C) 1994-9 W. N. Venables and B. D. Ripley
+% copyright (C) 1994-2009 W. N. Venables and B. D. Ripley
 %
 \name{Kfn}
 \alias{Kfn}
@@ -7,7 +7,7 @@
 Compute K-fn of a Point Pattern
 }
 \description{
-Actually computes L = sqrt(K/pi).
+Actually computes \eqn{L = \sqrt{K/\pi}}{L = sqrt(K/pi)}.
 }
 \usage{
 Kfn(pp, fs, k=100)

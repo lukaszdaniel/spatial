@@ -7,7 +7,7 @@
 Set Domain for Spatial Point Pattern Analyses
 }
 \description{
-Sets the rectangular domain \code{(xl, xu)}  x  \code{(yl, yu)}.
+Sets the rectangular domain \code{(xl, xu)}  \eqn{\times}{x}  \code{(yl, yu)}.
 }
 \usage{
 ppregion(xl = 0, xu = 1, yl = 0, yu = 1)
