@@ -1,7 +1,8 @@
 
-R version 2.11.0 alpha (2010-03-28 r51461)
-Copyright (C) 2010 The R Foundation for Statistical Computing
+R version 2.13.0 Under development (unstable) (2011-03-05 r54672)
+Copyright (C) 2011 The R Foundation for Statistical Computing
 ISBN 3-900051-07-0
+Platform: x86_64-unknown-linux-gnu (64-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -195,11 +196,11 @@ Model 5: surf.ls(np = 4, x = topo)
 > summary(topo4)
 Analysis of Variance Table
  Model: surf.ls(np = 4, x = topo)
-              Sum Sq Df    Mean Sq  F value     Pr(>F)
-Regression 181143.99 14 12938.8567 32.16092 2.2204e-16
-Deviation   14885.70 37   402.3162                    
-Total      196029.69 51                               
-Multiple R-Squared: 0.924,	Adjusted R-squared: 0.8953 
+             Sum Sq Df    Mean Sq  F value     Pr(>F)
+Regression 181144.0 14 12938.8567 32.16092 2.2204e-16
+Deviation   14885.7 37   402.3162                    
+Total      196029.7 51                               
+Multiple R-Squared: 0.9241,	Adjusted R-squared: 0.8953 
 AIC: (df = 15) 324.1594
 Fitted:
    Min     1Q Median     3Q    Max 
@@ -501,7 +502,7 @@ detaching ‘package:MASS’
 > ### * <FOOTER>
 > ###
 > cat("Time elapsed: ", proc.time() - get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  0.601 0.012 0.615 0 0 
+Time elapsed:  0.784 0.106 1.435 0 0 
 > grDevices::dev.off()
 null device 
           1 
