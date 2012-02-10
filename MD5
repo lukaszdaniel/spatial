@@ -1,4 +1,4 @@
-e38131f0e324cfc410068d7c6ef603e4 *DESCRIPTION
+c218fdd0c485fd95466c3c6e5636543d *DESCRIPTION
 018a936556b4ada051662be7d3bbdab7 *NAMESPACE
 5a8bc497fd6a91b2776638026488ede2 *R/kr.R
 00eaba5a87dd644ab41648885b488bb1 *R/pp.R
@@ -64,4 +64,4 @@ f1bf3bae687e2584eef0b2d27e775480 *po/R-de.po
 9f0ba4efca023b581e268b852d0d1ce5 *src/krc.c
 96cb341986eaf486aaaacc55c0500be3 *src/pps.c
 df5b3ef820841dc1b4fa04fd07291e84 *src/spatial.h
-6c5f271ce70073104b2182d1448ec990 *tests/Examples/spatial-Ex.Rout.save
+f756289c2e9a28b1f56db491dadd2f22 *tests/Examples/spatial-Ex.Rout.save

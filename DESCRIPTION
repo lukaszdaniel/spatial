@@ -1,8 +1,8 @@
 Package: spatial
 Priority: recommended
-Version: 7.3-5
-Date: 2012-10-08
-Depends: R (>= 2.5.0), graphics, stats, utils
+Version: 7.3-6
+Date: 2012-02-10
+Depends: R (>= 3.0.0), graphics, stats, utils
 Suggests: MASS
 Authors@R: c(person("Brian", "Ripley", role = c("aut", "cre", "cph"),
         email = "ripley@stats.ox.ac.uk"), person("Roger", "Bivand",
@@ -15,6 +15,7 @@ LazyLoad: yes
 ByteCompile: yes
 License: GPL-2 | GPL-3
 URL: http://www.stats.ox.ac.uk/pub/MASS4/
-Packaged: 2012-10-14 08:12:31 UTC; ripley
+Packaged: 2013-02-10 11:59:10 UTC; ripley
+NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2012-10-14 08:13:15
+Date/Publication: 2013-04-03 10:40:51
