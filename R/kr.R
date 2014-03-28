@@ -87,7 +87,7 @@ surf.gls <- function(np, covmod, x, y, z, nx=1000, ...)
     if (length(arguments)) {
         onames <- names(formals(covmod))
         pm <- pmatch(names(arguments), onames, nomatch = 0L)
-        if (any(pm == 0L)) warning(paste("some of ... do not match"))
+        if (any(pm == 0L)) warning("some of '...' do not match")
         names(arguments[pm > 0L]) <- onames[pm]
         oargs <- formals(covmod)
         oargs[pm] <- arguments[pm > 0L]

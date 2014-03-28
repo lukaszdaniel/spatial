@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: spatial 7.3-5\n"
-"POT-Creation-Date: 2012-10-08 10:54\n"
+"Project-Id-Version: spatial 7.3-7\n"
+"POT-Creation-Date: 2014-03-27 21:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 msgid "'x' does not have columns 'x', 'y' and 'z'"
 msgstr ""
 
-msgid "some of ... do not match"
+msgid "some of '...' do not match"
 msgstr ""
 
 msgid "rank failure in Choleski decomposition"

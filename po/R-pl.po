@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: spatial 7.3-4\n"
+"Project-Id-Version: spatial 7.3-7\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2012-09-23 17:22\n"
+"POT-Creation-Date: 2014-03-27 21:42\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -14,14 +14,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
-"X-Generator: Poedit 1.5.3\n"
+"X-Generator: Poedit 1.5.4\n"
 
 # spatial/R/kr.R: 33
-# stop("'np' exceeds 6")
+# stop("'np' argument exceeds 6")
 # spatial/R/kr.R: 73
-# stop("'np' exceeds 6")
+# stop("'np' argument exceeds 6")
 msgid "'np' exceeds 6"
-msgstr "'np' przekracza 6"
+msgstr "argument 'np' przekracza 6"
 
 # spatial/R/kr.R: 36
 # stop("'x' does not have columns 'x', 'y' and 'z'")
@@ -31,75 +31,45 @@ msgid "'x' does not have columns 'x', 'y' and 'z'"
 msgstr "'x' nie zawiera kolumn 'x', 'y' oraz 'z'"
 
 # spatial/R/kr.R: 90
-# warning(paste("some of ... do not match"))
-msgid "some of ... do not match"
-msgstr "niektóre z ... nie pasują"
+# warning("some of '...' do not match")
+msgid "some of '...' do not match"
+msgstr "niektóre z '...' nie pasują"
 
 # spatial/R/kr.R: 119
 # stop("rank failure in Choleski decomposition")
 msgid "rank failure in Choleski decomposition"
 msgstr "niepowodzenie pozycjonowania w dekompozycji Cholesky'ego"
 
-# spatial/R/kr.R: 143
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 158
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 172
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 369
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 376
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 383
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 390
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 397
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 415
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 445
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 490
-# stop("'object' is not a fitted trend surface")
-# spatial/R/kr.R: 527
-# stop("'object' is not a fitted trend surface")
 msgid "'object' is not a fitted trend surface"
-msgstr "'object' nie jest dopasowaną powierzchnią trendu"
+msgstr "argument nie jest obiektem klasy \"trls\""
 
 # spatial/R/kr.R: 145
 # stop("'x' and 'y' differ in length")
 msgid "'x' and 'y' differ in length"
 msgstr "'x' oraz 'y' różnią się długością"
 
-# spatial/R/kr.R: 207
-# stop("'object' not from kriging")
 msgid "'object' not from kriging"
-msgstr "'object' nie jest z krigingu"
+msgstr "argument nie jest obiektem klasy \"trgls\""
 
-# spatial/R/kr.R: 208
-# stop("'n' is too large")
-# spatial/R/kr.R: 260
-# stop("'n' is too large")
+# spatial/R/kr.R: 210
+# stop("'n' argument is too large")
+# spatial/R/kr.R: 263
+# stop("'n' argument is too large")
 msgid "'n' is too large"
-msgstr "'n' jest zbyt duże"
+msgstr "argument 'n' jest zbyt duży"
 
-# spatial/R/kr.R: 259
-# stop("object not from kriging")
 msgid "object not from kriging"
-msgstr "'object' nie jest z krigingu"
+msgstr "argument nie jest obiektem klasy \"trgls\""
 
-# spatial/R/kr.R: 309
-# warning("Device not active")
-# spatial/R/kr.R: 337
-# warning("Device not active")
+# spatial/R/kr.R: 312
+# warning("Device is not active")
+# spatial/R/kr.R: 340
+# warning("Device is not active")
 msgid "Device not active"
 msgstr "Urządzenie nie jest aktywne"
 
-# spatial/R/kr.R: 544
-# stop("'x' not a fitted trend surface")
 msgid "'x' not a fitted trend surface"
-msgstr "'x' nie jest dopasowaną powierzchnią trendu"
+msgstr "argument 'x' nie jest obiektem klasy \"trls\""
 
 # spatial/R/pp.R: 36
 # stop("some points outside region")
