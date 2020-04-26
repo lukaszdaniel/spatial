@@ -1,5 +1,5 @@
 /*
- *  spatial/src/pps.c by W. N. Venables and B. D. Ripley.  Copyright (C) 1994-2002
+ *  spatial/src/pps.c by W. N. Venables and B. D. Ripley.  Copyright (C) 1994-2016
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -16,6 +16,8 @@
  *
  */
 
+#include <stddef.h> // currently in R.h
+#include <math.h> // currently in R.h
 #include <R.h>
 #include <Rmath.h> /* for M_PI */
 
