@@ -1,4 +1,4 @@
-7d2d94259e3ed78e2064b6ee08f9ca24 *DESCRIPTION
+1ec4417e55ee0381307621dbd6833460 *DESCRIPTION
 9d3ab186ed88fca8f9806d8bb4a4fd56 *LICENCE.note
 9669a5ba859da001694e764789a4ce73 *NAMESPACE
 e917fff38af0195c39197a553712ebd5 *R/kr.R
@@ -65,7 +65,7 @@ fa61839fa0c3234acb894667f80eddb5 *po/R-it.po
 10c1ade8e7d014160bbf63b5b6793f0b *po/R-pl.po
 014071cd6f6328d8528a29eb7d4a3b6c *po/R-spatial.pot
 3951be1f52409800ec73d9786f1f1c25 *src/init.c
-0d8b51911ae2af1c97850551a14fb8dd *src/krc.c
+872b3fe49b6ad71aee95e8e54cc378f3 *src/krc.c
 cb5dbb445d8c7f8150e6ef4216b18278 *src/pps.c
 df5b3ef820841dc1b4fa04fd07291e84 *src/spatial.h
 f756289c2e9a28b1f56db491dadd2f22 *tests/Examples/spatial-Ex.Rout.save
