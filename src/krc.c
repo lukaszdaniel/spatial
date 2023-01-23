@@ -29,22 +29,22 @@
 /* defines  gls ls fmat frset alset valn pred prvar correlogram variogram */
 
 static void dscale(double, double, double *, double *);
-static void cholcov(double *, double *, double *, int, Sint *);
+static void cholcov(double *, double *, double *, int, int *);
 static void householder(double *, double *, double *, double *,
-			int, int, Sint *);
-static void chols(int, double *, double *, Sint *);
+			int, int, int *);
+static void chols(int, double *, double *, int *);
 static void solv(double *, double *, int, double *, double *);
 static void fsolv(double *, double *, int, double *);
 static void bsolv(double *, double *, int, double *);
 static void house_rhs(double *, double *, double *, int, int,
 		      double *, double *);
-static double val(double, double, double *, Sint *);
+static double val(double, double, double *, int *);
 
 static double *alph1 = NULL;
 static double xl1, xu1, yl1, yu1;
 
 void
-VR_alset(Sfloat *alph, Sint *nalph)
+VR_alset(double *alph, int *nalph)
 {
     int   i;
 
@@ -88,13 +88,13 @@ cov(int n, double *d, int pred)
 }
 
 void
-VR_gls(double *x, double *y, double *z, Sint *n, Sint *np,
-       Sint *npar, double *f, double *l, double *r, double *bz,
-       double *wz, double *yy, double *w, Sint *ifail, double *l1f)
+VR_gls(double *x, double *y, double *z, int *n, int *np,
+       int *npar, double *f, double *l, double *r, double *bz,
+       double *wz, double *yy, double *w, int *ifail, double *l1f)
 {
     double b[28];
-    Sint  i, j;
-    Sint  i1;
+    int  i, j;
+    int  i1;
     double *w1, *w2;
     double *lf, *nu;
 
@@ -153,12 +153,12 @@ VR_gls(double *x, double *y, double *z, Sint *n, Sint *np,
 }
 
 void
-VR_ls(double *x, double *y, double *z, Sint *n, Sint *np,
-      Sint *npar, double *f, double *r, double *bz, double *wz,
-      Sint *ifail)
+VR_ls(double *x, double *y, double *z, int *n, int *np,
+      int *npar, double *f, double *r, double *bz, double *wz,
+      int *ifail)
 {
     double b[28];
-    Sint  i, j, k;
+    int  i, j, k;
     double *fw, *nu;
 
 /*   Least squares estimation of parameters of spatial regression for
@@ -190,7 +190,7 @@ VR_ls(double *x, double *y, double *z, Sint *n, Sint *np,
 
 /* -------------------------------------------------------------------- */
 void
-VR_fmat(double *f, double *x, double *y, Sint *n, Sint *np)
+VR_fmat(double *f, double *x, double *y, int *n, int *np)
 {
     int   i, j, k, k1;
     double *xs, *ys;
@@ -212,7 +212,7 @@ VR_fmat(double *f, double *x, double *y, Sint *n, Sint *np)
 }
 
 static void
-cholcov(double *x, double *y, double *l, int n, Sint *ifail)
+cholcov(double *x, double *y, double *l, int n, int *ifail)
 {
     int   i, j;
     static double *w;
@@ -239,7 +239,7 @@ cholcov(double *x, double *y, double *l, int n, Sint *ifail)
 
 static void
 householder(double *f, double *nu, double *b, double *r, int n,
-	    int m, Sint *ifail)
+	    int m, int *ifail)
 {
     int   i, j, k;
     double c1, c2;
@@ -322,7 +322,7 @@ house_rhs(double *nu, double *b, double *r, int n, int m,
 }
 
 static void
-chols(int n, double *a, double *l, Sint *ifail)
+chols(int n, double *a, double *l, int *ifail)
 {
     double eps = 1e-9;
 
@@ -442,7 +442,7 @@ solv(double *x, double *y, int n, double *l, double *u)
 }
 
 void
-VR_frset(Sfloat *xl, Sfloat *xu, Sfloat *yl, Sfloat *yu)
+VR_frset(double *xl, double *xu, double *yl, double *yu)
 {
     xl1 = *xl;
     yl1 = *yl;
@@ -467,7 +467,7 @@ dscale(double xo, double yo, double *xs, double *ys)
 /*   VARIANCE/COVARIANCE,PREDICTION AND STANDARD ERROR ROUTINES */
 
 static double
-val(double xp, double yp, double *beta, Sint *np)
+val(double xp, double yp, double *beta, int *np)
 {
     int   i, j, i1;
     double xs, ys, sum;
@@ -484,7 +484,7 @@ val(double xp, double yp, double *beta, Sint *np)
 }
 
 void
-VR_valn(double *z, double *x, double *y, Sint *n, double *beta, Sint *np)
+VR_valn(double *z, double *x, double *y, int *n, double *beta, int *np)
 {
     int   i, j, i1;
     int   it;
@@ -507,7 +507,7 @@ VR_valn(double *z, double *x, double *y, Sint *n, double *beta, Sint *np)
 
 void
 VR_krpred(double *z, double *xs, double *ys, double *x, double *y,
-	  Sint *npt, Sint *n, double *yy)
+	  int *npt, int *n, double *yy)
 {
     double *d;
     int   i;
@@ -538,9 +538,9 @@ VR_krpred(double *z, double *xs, double *ys, double *x, double *y,
 }
 
 void
-VR_prvar(double *z, double *xp, double *yp, Sint *npt,
-	 double *x, double *y, double *l, double *r, Sint *n,
-	 Sint *np, Sint *npar, double *l1f)
+VR_prvar(double *z, double *xp, double *yp, int *npt,
+	 double *x, double *y, double *l, double *r, int *n,
+	 int *np, int *npar, double *l1f)
 {
     int   i, j, k, i1, k1, it;
 
@@ -589,8 +589,8 @@ VR_prvar(double *z, double *xp, double *yp, Sint *npt,
 /*  CORRELOGRAM AND VARIOGRAM ROUTINES */
 
 void
-VR_correlogram(Sfloat *xp, Sfloat *yp, Sint *nint, double *x,
-	       double *y, double *z, Sint *n, Sint *cnt)
+VR_correlogram(double *xp, double *yp, int *nint, double *x,
+	       double *y, double *z, int *n, int *cnt)
 {
     double xd, yd, d, sc, zb, xm, var, sum;
     int   i, j, i1, ibin;
@@ -655,8 +655,8 @@ VR_correlogram(Sfloat *xp, Sfloat *yp, Sint *nint, double *x,
 }
 
 void
-VR_variogram(Sfloat *xp, Sfloat *yp, Sint *nint, double *x,
-	     double *y, double *z, Sint *n, Sint *cnt)
+VR_variogram(double *xp, double  *yp, int *nint, double *x,
+	     double *y, double *z, int *n, int *cnt)
 {
     double xd, yd, d, sc, xm;
 
