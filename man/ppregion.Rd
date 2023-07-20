@@ -1,5 +1,5 @@
 % file spatial/man/ppregion.Rd
-% copyright (C) 1994-9 W. N. Venables and B. D. Ripley
+% copyright (C) 1994-2023 W. N. Venables and B. D. Ripley
 %
 \name{ppregion}
 \alias{ppregion}
@@ -17,12 +17,8 @@ ppregion(xl = 0, xu = 1, yl = 0, yu = 1)
 Either \code{xl} or a list containing components \code{xl}, \code{xu}, \code{yl}, \code{yu} (such as
 a point-process object)
 }
-\item{xu}{
+\item{xu, yl, yu}{otheri limits of the rectangle if given separately.}
 }
-\item{yl}{
-}
-\item{yu}{
-}}
 \value{
 none
 }

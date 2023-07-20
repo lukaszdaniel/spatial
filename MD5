@@ -1,4 +1,4 @@
-8d99581a0e8fd248e0af6f88c3052b41 *DESCRIPTION
+2116df11f7353956eb30d68b130a5cb4 *DESCRIPTION
 9d3ab186ed88fca8f9806d8bb4a4fd56 *LICENCE.note
 9669a5ba859da001694e764789a4ce73 *NAMESPACE
 e917fff38af0195c39197a553712ebd5 *R/kr.R
@@ -49,14 +49,14 @@ d57b5eda214c735869247bb740c9ed01 *man/expcov.Rd
 a389d57fce743f4ce9ead8aac5c8526a *man/ppgetregion.Rd
 8b0c26b282aa42c47c772966ab7f327d *man/ppinit.Rd
 73ba9c9f6cff0f55ebe454a2ea6e91d2 *man/pplik.Rd
-9b278c40f503ba360a300e3c6aa1f438 *man/ppregion.Rd
+15f01f1292dba972a83dadfe552e86fd *man/ppregion.Rd
 d9cd1238c3e23b65bc64c68f05e30f21 *man/predict.trls.Rd
-ed7a7d99852a72fe3966eccbe08ccd17 *man/prmat.Rd
-8dc7412bf5eb06859ba2f91490265b17 *man/semat.Rd
+c3f1e1425d109335b948b0d1a2f84e07 *man/prmat.Rd
+fd0aee10623fdc1cb24c1e59d967e262 *man/semat.Rd
 d98db27807c2d2d873c1fec3373a1243 *man/surf.gls.Rd
 84467f74fceaad7b3274bdd6967130a2 *man/surf.ls.Rd
 59bbd5b3b8aee9dce9b0b88987473f96 *man/trls.influence.Rd
-c8a59d0f5d530ffdec872f7ebd9c7df7 *man/trmat.Rd
+77976b86d70539604ed47d86cefe64be *man/trmat.Rd
 711460a998265bdb11322ddfcab76093 *man/variogram.Rd
 ca2f2b3b05143fcb7e2186be2d238f32 *po/R-de.po
 3c76b78f350435acad1ac97a968936a5 *po/R-fr.po

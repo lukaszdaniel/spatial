@@ -1,5 +1,5 @@
 % file spatial/man/semat.Rd
-% copyright (C) 1994-9 W. N. Venables and B. D. Ripley
+% copyright (C) 1994-2023 W. N. Venables and B. D. Ripley
 %
 \name{semat}
 \alias{semat}
@@ -20,10 +20,13 @@ object returned by \code{surf.gls}
 limits of the rectangle for grid
 }
 \item{xu}{
+  ditto
 }
 \item{yl}{
+  ditto
 }
 \item{yu}{
+  ditto
 }
 \item{n}{
 use \code{n}  x  \code{n} grid within the rectangle
