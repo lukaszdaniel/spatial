@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 2.15.2 / spatial 7.3-5\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2014-03-27 21:42\n"
+"POT-Creation-Date: 2024-09-11 16:17\n"
 "PO-Revision-Date: 2012-10-12 23:18+0200\n"
 "Last-Translator: Chris Leick <c.leick@vollbio.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -17,41 +17,84 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "'np' exceeds 6"
-msgstr "'np' überschreitet 6"
-
-msgid "'x' does not have columns 'x', 'y' and 'z'"
-msgstr "'x' hat keine Spalten 'x', 'y' und 'z'"
-
-msgid "some of '...' do not match"
-msgstr "einige von '...' stimmen nicht überein"
-
-msgid "rank failure in Choleski decomposition"
-msgstr "fehlerhafter Rang in Cholesky-Zerlegung"
-
-msgid "'object' is not a fitted trend surface"
-msgstr "'object' ist keine angepasste Trend-Fläche"
-
-msgid "'x' and 'y' differ in length"
-msgstr "'x' und 'y' unterscheiden sich in der Länge voneinander."
-
-msgid "'object' not from kriging"
-msgstr "'objekt' nicht von Kriging"
-
+#. R/kr.R: stop("'n' is too large")
+#. R/kr.R: stop("'n' is too large")
+#: R/kr.R:0
 msgid "'n' is too large"
 msgstr "'n' ist zu groß"
 
-msgid "object not from kriging"
-msgstr "Objekt nicht von Kriging"
+#. R/kr.R: stop("'np' exceeds 6")
+#. R/kr.R: stop("'np' exceeds 6")
+#: R/kr.R:0
+msgid "'np' exceeds 6"
+msgstr "'np' überschreitet 6"
 
-msgid "Device not active"
-msgstr "Gerät nicht aktiv"
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#: R/kr.R:0
+msgid "'object' is not a fitted trend surface"
+msgstr "'object' ist keine angepasste Trend-Fläche"
 
+#. R/kr.R: stop("'object' not from kriging")
+#: R/kr.R:0
+msgid "'object' not from kriging"
+msgstr "'objekt' nicht von Kriging"
+
+#. R/kr.R: stop("'x' and 'y' differ in length")
+#: R/kr.R:0
+msgid "'x' and 'y' differ in length"
+msgstr "'x' und 'y' unterscheiden sich in der Länge voneinander."
+
+#. R/kr.R: stop("'x' does not have columns 'x', 'y' and 'z'")
+#. R/kr.R: stop("'x' does not have columns 'x', 'y' and 'z'")
+#: R/kr.R:0
+msgid "'x' does not have columns 'x', 'y' and 'z'"
+msgstr "'x' hat keine Spalten 'x', 'y' und 'z'"
+
+#. R/kr.R: stop("'x' not a fitted trend surface")
+#: R/kr.R:0
 msgid "'x' not a fitted trend surface"
 msgstr "'x' ist keine angepasste Trend-Fläche"
 
-msgid "some points outside region"
-msgstr "einige Punkte außerhalb der Region"
+#. R/kr.R: warning("Device not active")
+#. R/kr.R: warning("Device not active")
+#: R/kr.R:0
+msgid "Device not active"
+msgstr "Gerät nicht aktiv"
 
+#. R/pp.R: stop("invalid input")
+#. R/pp.R: stop("invalid input")
+#. R/pp.R: stop("invalid input")
+#: R/pp.R:0
 msgid "invalid input"
 msgstr "ungültige Eingabe"
+
+#. R/kr.R: stop("object not from kriging")
+#: R/kr.R:0
+msgid "object not from kriging"
+msgstr "Objekt nicht von Kriging"
+
+#. R/kr.R: stop("rank failure in Choleski decomposition")
+#: R/kr.R:0
+msgid "rank failure in Choleski decomposition"
+msgstr "fehlerhafter Rang in Cholesky-Zerlegung"
+
+#. R/kr.R: warning("some of '...' do not match")
+#: R/kr.R:0
+msgid "some of '...' do not match"
+msgstr "einige von '...' stimmen nicht überein"
+
+#. R/pp.R: stop("some points outside region")
+#: R/pp.R:0
+msgid "some points outside region"
+msgstr "einige Punkte außerhalb der Region"

@@ -26,6 +26,7 @@
 #define UNIF unif_rand()
 
 #include "spatial.h"
+#include "localization.h"
 
 #ifndef max
 #  define max(a,b) ((a) > (b) ? (a) : (b))
@@ -39,7 +40,7 @@ static void
 testinit(void)
 {
     if ((xu0 == xl0) || (yu0 == yl0))
-	error("not initialized -- use ppregion");
+	error(_("not initialized -- use ppregion"));
 }
 
 

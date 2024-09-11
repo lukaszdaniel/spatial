@@ -1,7 +1,7 @@
 # Korean translations for spatial package
 # Recommended/spatial/po/R-ko.po
 # Maintainer: Brian Ripley <ripley@stats.ox.ac.uk>
-# 
+#
 # This file is distributed under the same license as the R spatial package.
 # Chel Hee Lee <chl948@mail.usask.ca>, 2015.
 #
@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: spatial 7.3-7\n"
-"POT-Creation-Date: 2014-03-27 21:42\n"
+"POT-Creation-Date: 2024-09-11 16:17\n"
 "PO-Revision-Date: 2015-02-06 21:56-0600\n"
 "Last-Translator:Chel Hee Lee  <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
@@ -23,41 +23,84 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "'np' exceeds 6"
-msgstr "'np'의 값이 6을 초과합니다."
-
-msgid "'x' does not have columns 'x', 'y' and 'z'"
-msgstr "'x'는 'x', 'y', 'z'이라는 열을 가지고 있지 않습니다."
-
-msgid "some of '...' do not match"
-msgstr "'...'의 일부가 일치하지 않습니다."
-
-msgid "rank failure in Choleski decomposition"
-msgstr "촐레스키 분해(Choleski decomposition)에 실패했습니다."
-
-msgid "'object' is not a fitted trend surface"
-msgstr "'object'는 적합된 경향면(fitted trend surface)가 아닙니다."
-
-msgid "'x' and 'y' differ in length"
-msgstr "'x'와 'y'의 길이가 서로 다릅니다."
-
-msgid "'object' not from kriging"
-msgstr "크리깅(kriging)으로부터 나온 'object'가 아닙니다."
-
+#. R/kr.R: stop("'n' is too large")
+#. R/kr.R: stop("'n' is too large")
+#: R/kr.R:0
 msgid "'n' is too large"
 msgstr "'n'이 너무 큽니다."
 
-msgid "object not from kriging"
-msgstr "크리깅(kriging)을 이용하여 얻은 객체가 아닙니다."
+#. R/kr.R: stop("'np' exceeds 6")
+#. R/kr.R: stop("'np' exceeds 6")
+#: R/kr.R:0
+msgid "'np' exceeds 6"
+msgstr "'np'의 값이 6을 초과합니다."
 
-msgid "Device not active"
-msgstr "장치가 활성화되어 있지 않습니다."
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#: R/kr.R:0
+msgid "'object' is not a fitted trend surface"
+msgstr "'object'는 적합된 경향면(fitted trend surface)가 아닙니다."
 
+#. R/kr.R: stop("'object' not from kriging")
+#: R/kr.R:0
+msgid "'object' not from kriging"
+msgstr "크리깅(kriging)으로부터 나온 'object'가 아닙니다."
+
+#. R/kr.R: stop("'x' and 'y' differ in length")
+#: R/kr.R:0
+msgid "'x' and 'y' differ in length"
+msgstr "'x'와 'y'의 길이가 서로 다릅니다."
+
+#. R/kr.R: stop("'x' does not have columns 'x', 'y' and 'z'")
+#. R/kr.R: stop("'x' does not have columns 'x', 'y' and 'z'")
+#: R/kr.R:0
+msgid "'x' does not have columns 'x', 'y' and 'z'"
+msgstr "'x'는 'x', 'y', 'z'이라는 열을 가지고 있지 않습니다."
+
+#. R/kr.R: stop("'x' not a fitted trend surface")
+#: R/kr.R:0
 msgid "'x' not a fitted trend surface"
 msgstr "'x'는 적합된 경향면(fitted trend surface)내에 있지 않습니다."
 
-msgid "some points outside region"
-msgstr "일부의 포인트들이 범위 밖에 있습니다."
+#. R/kr.R: warning("Device not active")
+#. R/kr.R: warning("Device not active")
+#: R/kr.R:0
+msgid "Device not active"
+msgstr "장치가 활성화되어 있지 않습니다."
 
+#. R/pp.R: stop("invalid input")
+#. R/pp.R: stop("invalid input")
+#. R/pp.R: stop("invalid input")
+#: R/pp.R:0
 msgid "invalid input"
 msgstr "입력이 올바르지 않습니다."
+
+#. R/kr.R: stop("object not from kriging")
+#: R/kr.R:0
+msgid "object not from kriging"
+msgstr "크리깅(kriging)을 이용하여 얻은 객체가 아닙니다."
+
+#. R/kr.R: stop("rank failure in Choleski decomposition")
+#: R/kr.R:0
+msgid "rank failure in Choleski decomposition"
+msgstr "촐레스키 분해(Choleski decomposition)에 실패했습니다."
+
+#. R/kr.R: warning("some of '...' do not match")
+#: R/kr.R:0
+msgid "some of '...' do not match"
+msgstr "'...'의 일부가 일치하지 않습니다."
+
+#. R/pp.R: stop("some points outside region")
+#: R/pp.R:0
+msgid "some points outside region"
+msgstr "일부의 포인트들이 범위 밖에 있습니다."

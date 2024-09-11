@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spatial 7.2-20\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2014-03-27 21:42\n"
+"POT-Creation-Date: 2024-09-11 16:17\n"
 "PO-Revision-Date: 2021-04-12 19:05+0200\n"
 "Last-Translator: Philippe Grosjean <phgrosjean@sciviews.org>\n"
 "Language-Team: French <R-core@r-project.org>\n"
@@ -18,41 +18,84 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 2.4.2\n"
 
-msgid "'np' exceeds 6"
-msgstr "'np' dépasse 6"
-
-msgid "'x' does not have columns 'x', 'y' and 'z'"
-msgstr "'x' n'a pas de colonne 'x', 'y' et 'z'"
-
-msgid "some of '...' do not match"
-msgstr "quelques arguments de '...' ne correspondent pas"
-
-msgid "rank failure in Choleski decomposition"
-msgstr "erreur de rang dans la décomposition de Choleski"
-
-msgid "'object' is not a fitted trend surface"
-msgstr "'object' n'est pas une surface de tendance ajustée"
-
-msgid "'x' and 'y' differ in length"
-msgstr "'x' et 'y' diffèrent en longueur"
-
-msgid "'object' not from kriging"
-msgstr "'object' n'est pas issu d'un krigeage"
-
+#. R/kr.R: stop("'n' is too large")
+#. R/kr.R: stop("'n' is too large")
+#: R/kr.R:0
 msgid "'n' is too large"
 msgstr "'n' est trop large"
 
-msgid "object not from kriging"
-msgstr "l'objet n'est pas issu d'un krigeage"
+#. R/kr.R: stop("'np' exceeds 6")
+#. R/kr.R: stop("'np' exceeds 6")
+#: R/kr.R:0
+msgid "'np' exceeds 6"
+msgstr "'np' dépasse 6"
 
-msgid "Device not active"
-msgstr "Le périphérique n'est pas actif"
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#. R/kr.R: stop("'object' is not a fitted trend surface")
+#: R/kr.R:0
+msgid "'object' is not a fitted trend surface"
+msgstr "'object' n'est pas une surface de tendance ajustée"
 
+#. R/kr.R: stop("'object' not from kriging")
+#: R/kr.R:0
+msgid "'object' not from kriging"
+msgstr "'object' n'est pas issu d'un krigeage"
+
+#. R/kr.R: stop("'x' and 'y' differ in length")
+#: R/kr.R:0
+msgid "'x' and 'y' differ in length"
+msgstr "'x' et 'y' diffèrent en longueur"
+
+#. R/kr.R: stop("'x' does not have columns 'x', 'y' and 'z'")
+#. R/kr.R: stop("'x' does not have columns 'x', 'y' and 'z'")
+#: R/kr.R:0
+msgid "'x' does not have columns 'x', 'y' and 'z'"
+msgstr "'x' n'a pas de colonne 'x', 'y' et 'z'"
+
+#. R/kr.R: stop("'x' not a fitted trend surface")
+#: R/kr.R:0
 msgid "'x' not a fitted trend surface"
 msgstr "'x' n'est pas une surface de tendance ajustée"
 
-msgid "some points outside region"
-msgstr "quelques points sortent de la région"
+#. R/kr.R: warning("Device not active")
+#. R/kr.R: warning("Device not active")
+#: R/kr.R:0
+msgid "Device not active"
+msgstr "Le périphérique n'est pas actif"
 
+#. R/pp.R: stop("invalid input")
+#. R/pp.R: stop("invalid input")
+#. R/pp.R: stop("invalid input")
+#: R/pp.R:0
 msgid "invalid input"
 msgstr "entrée incorrecte"
+
+#. R/kr.R: stop("object not from kriging")
+#: R/kr.R:0
+msgid "object not from kriging"
+msgstr "l'objet n'est pas issu d'un krigeage"
+
+#. R/kr.R: stop("rank failure in Choleski decomposition")
+#: R/kr.R:0
+msgid "rank failure in Choleski decomposition"
+msgstr "erreur de rang dans la décomposition de Choleski"
+
+#. R/kr.R: warning("some of '...' do not match")
+#: R/kr.R:0
+msgid "some of '...' do not match"
+msgstr "quelques arguments de '...' ne correspondent pas"
+
+#. R/pp.R: stop("some points outside region")
+#: R/pp.R:0
+msgid "some points outside region"
+msgstr "quelques points sortent de la région"
