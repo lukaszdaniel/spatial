@@ -20,6 +20,7 @@
 #include <math.h> // currently in R.h
 #include <R.h>
 #include <Rmath.h> /* for M_PI */
+#include <R_ext/Minmax.h>
 
 #define RANDIN  GetRNGstate()
 #define RANDOUT PutRNGstate()
@@ -28,11 +29,6 @@
 #include "spatial.h"
 #include "localization.h"
 
-#ifndef max
-#  define max(a,b) ((a) > (b) ? (a) : (b))
-#  define min(a,b) ((a) < (b) ? (a) : (b))
-#endif
-
 static double xl0, yl0, xu0, yu0;
 
 
@@ -40,7 +36,7 @@ static void
 testinit(void)
 {
     if ((xu0 == xl0) || (yu0 == yl0))
-	error(_("not initialized -- use ppregion"));
+	error(_("rectangular domain was not initialized -- use 'ppregion()' function"));
 }
 
 
