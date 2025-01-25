@@ -36,7 +36,7 @@ static void
 testinit(void)
 {
     if ((xu0 == xl0) || (yu0 == yl0))
-	error(_("rectangular domain was not initialized -- use 'ppregion()' function"));
+	Rf_error(_("rectangular domain was not initialized -- use 'ppregion()' function"));
 }
 
 
