@@ -29,8 +29,8 @@ bdb3c877c62ace3f8a1eec51cb5eb31f *inst/po/pl/LC_MESSAGES/spatial.mo
 e7faa02883c49d84e2cc5cd3beb738b7 *inst/po/ko/LC_MESSAGES/R-spatial.mo
 36b8838a95ade77adb5519017f757851 *inst/po/de/LC_MESSAGES/R-spatial.mo
 93c8192ad99d374f83528b4ea29ef42c *inst/po/fr/LC_MESSAGES/R-spatial.mo
-4100034db58988bd571a60c4ccfb07c7 *inst/po/en@quot/LC_MESSAGES/spatial.mo
-917adeb945b40c0a137002d076b5d9e6 *inst/po/en@quot/LC_MESSAGES/R-spatial.mo
+89616233203d6bc7ff769b400b747c8b *inst/po/en@quot/LC_MESSAGES/spatial.mo
+c569e67338f4798b04f27597eedb1b6d *inst/po/en@quot/LC_MESSAGES/R-spatial.mo
 ae8dd79cfdd68e0746a8dfe7ef5a424a *inst/po/it/LC_MESSAGES/R-spatial.mo
 e996c8c84dd8c4580a1a8926f5587377 *inst/CITATION
 7418be8b11ecd38cca04ed1424dfbc3a *src/spatial.h
@@ -63,10 +63,10 @@ a389d57fce743f4ce9ead8aac5c8526a *man/ppgetregion.Rd
 f756289c2e9a28b1f56db491dadd2f22 *tests/Examples/spatial-Ex.Rout.save
 3943ed29c567b3fcfacaf69ddf13a7a6 *po/R-pl.po
 45b798203b6512136806526aedea3bc4 *po/R-de.po
-6f7458e8742619cca18ef27ce9c4e0ad *po/R-spatial.pot
+ed2b0b37240ef0b8f45ced3f7b5eafd8 *po/R-spatial.pot
 726318f5f60fdf1c1351f958f7865aca *po/R-it.po
 637a85b6e813be7513b1446bcd8221ab *po/R-ko.po
-af77203c5a3eb1d2124f6daca4934e82 *po/spatial.pot
+a8a95ea33b174acf06a72c758ec80d18 *po/spatial.pot
 5fca4d2a3e0c223c8d34b0531ff92a27 *po/pl.po
 3842fd2ae1ef40a7113194517f869dd9 *po/R-fr.po
 b73d901aec0000ef0b54400c80081df2 *R/pp.R
