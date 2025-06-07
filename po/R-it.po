@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spatial 7.3-8\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2024-09-11 16:17\n"
+"POT-Creation-Date: 2025-06-05 16:22\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -19,28 +19,15 @@ msgstr ""
 "X-Generator: Poedit 2.2.1\n"
 
 #. R/kr.R: stop("'n' is too large")
-#. R/kr.R: stop("'n' is too large")
 #: R/kr.R:0
 msgid "'n' is too large"
 msgstr "'n' è troppo grande"
 
 #. R/kr.R: stop("'np' exceeds 6")
-#. R/kr.R: stop("'np' exceeds 6")
 #: R/kr.R:0
 msgid "'np' exceeds 6"
 msgstr "'np' eccede 6"
 
-#. R/kr.R: stop("'object' is not a fitted trend surface")
-#. R/kr.R: stop("'object' is not a fitted trend surface")
-#. R/kr.R: stop("'object' is not a fitted trend surface")
-#. R/kr.R: stop("'object' is not a fitted trend surface")
-#. R/kr.R: stop("'object' is not a fitted trend surface")
-#. R/kr.R: stop("'object' is not a fitted trend surface")
-#. R/kr.R: stop("'object' is not a fitted trend surface")
-#. R/kr.R: stop("'object' is not a fitted trend surface")
-#. R/kr.R: stop("'object' is not a fitted trend surface")
-#. R/kr.R: stop("'object' is not a fitted trend surface")
-#. R/kr.R: stop("'object' is not a fitted trend surface")
 #. R/kr.R: stop("'object' is not a fitted trend surface")
 #: R/kr.R:0
 msgid "'object' is not a fitted trend surface"
@@ -57,7 +44,6 @@ msgid "'x' and 'y' differ in length"
 msgstr "'x' e 'y' differiscono in lunghezza"
 
 #. R/kr.R: stop("'x' does not have columns 'x', 'y' and 'z'")
-#. R/kr.R: stop("'x' does not have columns 'x', 'y' and 'z'")
 #: R/kr.R:0
 msgid "'x' does not have columns 'x', 'y' and 'z'"
 msgstr "'x' non ha le colonne 'x', 'y' e 'z'"
@@ -68,13 +54,10 @@ msgid "'x' not a fitted trend surface"
 msgstr "'x' non ha una superficie di trend aderente"
 
 #. R/kr.R: warning("Device not active")
-#. R/kr.R: warning("Device not active")
 #: R/kr.R:0
 msgid "Device not active"
 msgstr "Dispositivo non attivo"
 
-#. R/pp.R: stop("invalid input")
-#. R/pp.R: stop("invalid input")
 #. R/pp.R: stop("invalid input")
 #: R/pp.R:0
 msgid "invalid input"
