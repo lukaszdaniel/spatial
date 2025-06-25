@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: spatial 7.3-18\n"
-"POT-Creation-Date: 2025-06-05 16:22\n"
+"POT-Creation-Date: 2025-06-22 16:29\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,13 +71,6 @@ msgstr ""
 #. R/pp.R: stop("invalid input")
 
 msgid "invalid input"
-msgstr ""
-
-
-#: R/kr.R: 0
-#. R/kr.R: stop("object not from kriging")
-
-msgid "object not from kriging"
 msgstr ""
 
 

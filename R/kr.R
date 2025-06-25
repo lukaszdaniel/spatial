@@ -256,7 +256,7 @@ semat <- function(obj, xl, xu, yl, yu, n, se)
            )$z
     }
 
-    if(!inherits(obj, "trgls")) stop("object not from kriging")
+    if(!inherits(obj, "trgls")) stop("'object' not from kriging")
     if(n > 999) stop("'n' is too large")
     .C(VR_frset,
        as.double(obj$rx[1L]),

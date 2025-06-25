@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spatial 7.3-7\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2025-06-05 16:22\n"
+"POT-Creation-Date: 2025-06-22 16:29\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "na-Revision-Date: 2012-05-29 07:55+0100\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #. R/kr.R: stop("'n' is too large")
 #: R/kr.R:0
@@ -28,7 +28,7 @@ msgstr "argument 'np' przekracza 6"
 #. R/kr.R: stop("'object' is not a fitted trend surface")
 #: R/kr.R:0
 msgid "'object' is not a fitted trend surface"
-msgstr "argument nie jest obiektem klasy \"trls\""
+msgstr "'object' nie jest dopasowaną powierzchnią trendu"
 
 #. R/kr.R: stop("'object' not from kriging")
 #: R/kr.R:0
@@ -48,7 +48,7 @@ msgstr "'x' nie zawiera kolumn 'x', 'y' oraz 'z'"
 #. R/kr.R: stop("'x' not a fitted trend surface")
 #: R/kr.R:0
 msgid "'x' not a fitted trend surface"
-msgstr "argument 'x' nie jest obiektem klasy \"trls\""
+msgstr "'x' nie jest dopasowaną powierzchnią trendu"
 
 #. R/kr.R: warning("Device not active")
 #: R/kr.R:0
@@ -59,11 +59,6 @@ msgstr "Urządzenie nie jest aktywne"
 #: R/pp.R:0
 msgid "invalid input"
 msgstr "niepoprawne wejście"
-
-#. R/kr.R: stop("object not from kriging")
-#: R/kr.R:0
-msgid "object not from kriging"
-msgstr "argument nie jest obiektem klasy \"trgls\""
 
 #. R/kr.R: stop("rank failure in Choleski decomposition")
 #: R/kr.R:0
@@ -79,3 +74,6 @@ msgstr "niektóre z '...' nie pasują"
 #: R/pp.R:0
 msgid "some points outside region"
 msgstr "niektóre punkty są poza obszarem"
+
+#~ msgid "object not from kriging"
+#~ msgstr "argument nie jest obiektem klasy \"trgls\""

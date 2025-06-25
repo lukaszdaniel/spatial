@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spatial 7.2-20\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2025-06-05 16:22\n"
+"POT-Creation-Date: 2025-06-22 16:29\n"
 "PO-Revision-Date: 2021-04-12 19:05+0200\n"
 "Last-Translator: Philippe Grosjean <phgrosjean@sciviews.org>\n"
 "Language-Team: French <R-core@r-project.org>\n"
@@ -63,11 +63,6 @@ msgstr "Le périphérique n'est pas actif"
 msgid "invalid input"
 msgstr "entrée incorrecte"
 
-#. R/kr.R: stop("object not from kriging")
-#: R/kr.R:0
-msgid "object not from kriging"
-msgstr "l'objet n'est pas issu d'un krigeage"
-
 #. R/kr.R: stop("rank failure in Choleski decomposition")
 #: R/kr.R:0
 msgid "rank failure in Choleski decomposition"
@@ -82,3 +77,6 @@ msgstr "quelques arguments de '...' ne correspondent pas"
 #: R/pp.R:0
 msgid "some points outside region"
 msgstr "quelques points sortent de la région"
+
+#~ msgid "object not from kriging"
+#~ msgstr "l'objet n'est pas issu d'un krigeage"

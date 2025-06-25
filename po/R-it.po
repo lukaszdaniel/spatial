@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spatial 7.3-8\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-06-05 16:22\n"
+"POT-Creation-Date: 2025-06-22 16:29\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -63,11 +63,6 @@ msgstr "Dispositivo non attivo"
 msgid "invalid input"
 msgstr "input non valido"
 
-#. R/kr.R: stop("object not from kriging")
-#: R/kr.R:0
-msgid "object not from kriging"
-msgstr "oggetto non da kringing"
-
 #. R/kr.R: stop("rank failure in Choleski decomposition")
 #: R/kr.R:0
 msgid "rank failure in Choleski decomposition"
@@ -82,3 +77,6 @@ msgstr "alcuni '...' non corrispondono"
 #: R/pp.R:0
 msgid "some points outside region"
 msgstr "alcuni punti al di fuori della regione"
+
+#~ msgid "object not from kriging"
+#~ msgstr "oggetto non da kringing"
