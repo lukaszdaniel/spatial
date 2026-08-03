@@ -1,3 +1,6 @@
+% file spatial/man/predict/trls.Rd
+% copyright (C) 1994-2026 W. N. Venables and B. D. Ripley
+%
 \name{predict.trls}
 \alias{predict.trls}
 \title{
@@ -36,7 +39,6 @@ to matrix form.
 \code{\link{surf.ls}}, \code{\link{trmat}}
 }
 \examples{
-data(topo, package="MASS")
 topo2 <- surf.ls(2, topo)
 topo4 <- surf.ls(4, topo)
 x <- c(1.78, 2.21)

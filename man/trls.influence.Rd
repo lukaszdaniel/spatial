@@ -1,5 +1,5 @@
 % file spatial/man/trls.influence.Rd
-% copyright (C) 2001-2 W. N. Venables and B. D. Ripley
+% copyright (C) 2001-2026 W. N. Venables and B. D. Ripley
 %
 \name{trls.influence}
 \alias{trls.influence}
@@ -59,14 +59,12 @@ trls.influence(object)
 \code{\link{surf.ls}}, \code{\link{influence.measures}}, \code{\link{plot.lm}}
 }
 \examples{
-library(MASS)  # for eqscplot
-data(topo, package = "MASS")
 topo2 <- surf.ls(2, topo)
 infl.topo2 <- trls.influence(topo2)
 (cand <- as.data.frame(infl.topo2)[abs(infl.topo2$stresid) > 1.5, ])
 cand.xy <- topo[as.integer(rownames(cand)), c("x", "y")]
 trsurf <- trmat(topo2, 0, 6.5, 0, 6.5, 50)
-eqscplot(trsurf, type = "n")
+plot(trsurf, type = "n", asp = 1)
 contour(trsurf, add = TRUE, col = "grey")
 plot(topo2, add = TRUE, div = 3)
 points(cand.xy, pch = 16, col = "orange")

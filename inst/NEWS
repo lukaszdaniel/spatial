@@ -8,6 +8,8 @@ This file documents software changes since the third edition.
 - Methods for class "surf.ls" contributed by Roger Bivand.
 - surf.ls and surf.gls now check for x,y,z cols in a data frame given for x.
 - PP datasets moved from data to ppdata
-- no longer duplicate topo dataset from MASS
+- duplicate topo dataset from MASS
 - Strauss and SSI are now interruptible
 - the extractAIC method for "trls" objects was using incorrect edf
+- MASS::eqscplot replaced by plot(asp = 1).
+- no longer depends on package MASS.

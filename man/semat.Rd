@@ -1,5 +1,5 @@
 % file spatial/man/semat.Rd
-% copyright (C) 1994-2023 W. N. Venables and B. D. Ripley
+% copyright (C) 1994-2026 W. N. Venables and B. D. Ripley
 %
 \name{semat}
 \alias{semat}
@@ -49,7 +49,6 @@ list with components x, y and z suitable for \code{contour} and \code{image}.
 \code{\link{surf.gls}}, \code{\link{trmat}}, \code{\link{prmat}}
 }
 \examples{
-data(topo, package="MASS")
 topo.kr <- surf.gls(2, expcov, topo, d=0.7)
 prsurf <- prmat(topo.kr, 0, 6.5, 0, 6.5, 50)
 contour(prsurf, levels=seq(700, 925, 25))

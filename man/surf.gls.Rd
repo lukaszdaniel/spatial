@@ -1,5 +1,5 @@
 % file spatial/man/surf.gls.Rd
-% copyright (C) 1994-9 W. N. Venables and B. D. Ripley
+% copyright (C) 1994-2026 W. N. Venables and B. D. Ripley
 %
 \name{surf.gls}
 \alias{surf.gls}
@@ -58,17 +58,15 @@ and others for internal use only.
 \code{\link{trmat}}, \code{\link{surf.ls}}, \code{\link{prmat}}, \code{\link{semat}}, \code{\link{expcov}}, \code{\link{gaucov}}, \code{\link{sphercov}}
 }
 \examples{
-library(MASS)  # for eqscplot
-data(topo, package="MASS")
 topo.kr <- surf.gls(2, expcov, topo, d=0.7)
 trsurf <- trmat(topo.kr, 0, 6.5, 0, 6.5, 50)
-eqscplot(trsurf, type = "n")
+plot(trsurf, type = "n", asp = 1)
 contour(trsurf, add = TRUE)
 
 prsurf <- prmat(topo.kr, 0, 6.5, 0, 6.5, 50)
 contour(prsurf, levels=seq(700, 925, 25))
 sesurf <- semat(topo.kr, 0, 6.5, 0, 6.5, 30)
-eqscplot(sesurf, type = "n")
+plot(sesurf, type = "n", asp = 1)
 contour(sesurf, levels = c(22, 25), add = TRUE)
 }
 \keyword{spatial}

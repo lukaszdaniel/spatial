@@ -1,5 +1,5 @@
 % file spatial/man/variogram.Rd
-% copyright (C) 1994-9 W. N. Venables and B. D. Ripley
+% copyright (C) 1994-2026 W. N. Venables and B. D. Ripley
 %
 \name{variogram}
 \alias{variogram}
@@ -47,7 +47,6 @@ bins with 6 or more pairs.
 \code{\link{correlogram}}
 }
 \examples{
-data(topo, package="MASS")
 topo.kr <- surf.ls(2, topo)
 variogram(topo.kr, 25)
 }
