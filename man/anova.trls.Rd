@@ -1,5 +1,5 @@
 % file spatial/man/anova.trls.Rd
-% copyright (C) 2001-2 W. N. Venables and B. D. Ripley
+% copyright (C) 2001-2026 W. N. Venables and B. D. Ripley
 %
 \name{anova.trls}
 \alias{anova.trls}
@@ -37,7 +37,6 @@ to their printed tabular output.
 }
 \examples{
 library(stats)
-data(topo, package="MASS")
 topo0 <- surf.ls(0, topo)
 topo1 <- surf.ls(1, topo)
 topo2 <- surf.ls(2, topo)

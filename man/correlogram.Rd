@@ -1,5 +1,5 @@
 % file spatial/man/correlogram.Rd
-% copyright (C) 1994-9 W. N. Venables and B. D. Ripley
+% copyright (C) 1994-2026 W. N. Venables and B. D. Ripley
 %
 \name{correlogram}
 \alias{correlogram}
@@ -47,7 +47,6 @@ Returns results for bins with 6 or more pairs.
 \code{\link{variogram}}
 }
 \examples{
-data(topo, package="MASS")
 topo.kr <- surf.ls(2, topo)
 correlogram(topo.kr, 25)
 d <- seq(0, 7, 0.1)

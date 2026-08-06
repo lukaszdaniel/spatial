@@ -1,5 +1,5 @@
 % file spatial/man/expcov.Rd
-% copyright (C) 1994-9 W. N. Venables and B. D. Ripley
+% copyright (C) 1994-2026 W. N. Venables and B. D. Ripley
 %
 \name{expcov}
 \alias{expcov}
@@ -45,7 +45,6 @@ vector of covariance values.
 \code{\link{surf.gls}}
 }
 \examples{
-data(topo, package="MASS")
 topo.kr <- surf.ls(2, topo)
 correlogram(topo.kr, 25)
 d <- seq(0, 7, 0.1)

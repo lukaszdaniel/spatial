@@ -1,8 +1,7 @@
 
-R Under development (unstable) (2013-02-09 r61878) -- "Unsuffered Consequences"
-Copyright (C) 2013 The R Foundation for Statistical Computing
-ISBN 3-900051-07-0
-Platform: x86_64-unknown-linux-gnu (64-bit)
+R Under development (unstable) (2026-08-01 r90334) -- "Unsuffered Consequences"
+Copyright (C) 2026 The R Foundation for Statistical Computing
+Platform: aarch64-apple-darwin25.6.0
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -24,6 +23,7 @@ Type 'q()' to quit R.
 > library('spatial')
 > 
 > base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> base::assign(".old_wd", base::getwd(), pos = 'CheckExEnv')
 > cleanEx()
 > nameEx("Kaver")
 > ### * Kaver
@@ -173,7 +173,6 @@ Type 'q()' to quit R.
 > ### ** Examples
 > 
 > library(stats)
-> data(topo, package="MASS")
 > topo0 <- surf.ls(0, topo)
 > topo1 <- surf.ls(1, topo)
 > topo2 <- surf.ls(2, topo)
@@ -224,7 +223,6 @@ Residuals:
 > 
 > ### ** Examples
 > 
-> data(topo, package="MASS")
 > topo.kr <- surf.ls(2, topo)
 > correlogram(topo.kr, 25)
 > d <- seq(0, 7, 0.1)
@@ -245,7 +243,6 @@ Residuals:
 > 
 > ### ** Examples
 > 
-> data(topo, package="MASS")
 > topo.kr <- surf.ls(2, topo)
 > correlogram(topo.kr, 25)
 > d <- seq(0, 7, 0.1)
@@ -305,7 +302,6 @@ Residuals:
 > 
 > ### ** Examples
 > 
-> data(topo, package="MASS")
 > topo2 <- surf.ls(2, topo)
 > topo4 <- surf.ls(4, topo)
 > x <- c(1.78, 2.21)
@@ -331,7 +327,6 @@ Residuals:
 > 
 > ### ** Examples
 > 
-> data(topo, package="MASS")
 > topo.kr <- surf.gls(2, expcov, topo, d=0.7)
 > prsurf <- prmat(topo.kr, 0, 6.5, 0, 6.5, 50)
 > contour(prsurf, levels=seq(700, 925, 25))
@@ -351,7 +346,6 @@ Residuals:
 > 
 > ### ** Examples
 > 
-> data(topo, package="MASS")
 > topo.kr <- surf.gls(2, expcov, topo, d=0.7)
 > prsurf <- prmat(topo.kr, 0, 6.5, 0, 6.5, 50)
 > contour(prsurf, levels=seq(700, 925, 25))
@@ -373,25 +367,20 @@ Residuals:
 > 
 > ### ** Examples
 > 
-> library(MASS)  # for eqscplot
-> data(topo, package="MASS")
 > topo.kr <- surf.gls(2, expcov, topo, d=0.7)
 > trsurf <- trmat(topo.kr, 0, 6.5, 0, 6.5, 50)
-> eqscplot(trsurf, type = "n")
+> plot(trsurf, type = "n", asp = 1)
 > contour(trsurf, add = TRUE)
 > 
 > prsurf <- prmat(topo.kr, 0, 6.5, 0, 6.5, 50)
 > contour(prsurf, levels=seq(700, 925, 25))
 > sesurf <- semat(topo.kr, 0, 6.5, 0, 6.5, 30)
-> eqscplot(sesurf, type = "n")
+> plot(sesurf, type = "n", asp = 1)
 > contour(sesurf, levels = c(22, 25), add = TRUE)
 > 
 > 
 > 
 > cleanEx()
-
-detaching ‘package:MASS’
-
 > nameEx("surf.ls")
 > ### * surf.ls
 > 
@@ -404,15 +393,13 @@ detaching ‘package:MASS’
 > 
 > ### ** Examples
 > 
-> library(MASS)  # for eqscplot
-> data(topo, package="MASS")
 > topo.kr <- surf.ls(2, topo)
 > trsurf <- trmat(topo.kr, 0, 6.5, 0, 6.5, 50)
-> eqscplot(trsurf, type = "n")
+> plot(trsurf, type = "n", asp = 1)
 > contour(trsurf, add = TRUE)
 > points(topo)
 > 
-> eqscplot(trsurf, type = "n")
+> plot(trsurf, type = "n", asp = 1)
 > contour(trsurf, add = TRUE)
 > plot(topo.kr, add = TRUE)
 > title(xlab= "Circle radius proportional to Cook's influence statistic")
@@ -420,9 +407,6 @@ detaching ‘package:MASS’
 > 
 > 
 > cleanEx()
-
-detaching ‘package:MASS’
-
 > nameEx("trls.influence")
 > ### * trls.influence
 > 
@@ -435,8 +419,6 @@ detaching ‘package:MASS’
 > 
 > ### ** Examples
 > 
-> library(MASS)  # for eqscplot
-> data(topo, package = "MASS")
 > topo2 <- surf.ls(2, topo)
 > infl.topo2 <- trls.influence(topo2)
 > (cand <- as.data.frame(infl.topo2)[abs(infl.topo2$stresid) > 1.5, ])
@@ -450,7 +432,7 @@ detaching ‘package:MASS’
 50 -63.25149 0.27530059 -2.520972 0.40237779
 > cand.xy <- topo[as.integer(rownames(cand)), c("x", "y")]
 > trsurf <- trmat(topo2, 0, 6.5, 0, 6.5, 50)
-> eqscplot(trsurf, type = "n")
+> plot(trsurf, type = "n", asp = 1)
 > contour(trsurf, add = TRUE, col = "grey")
 > plot(topo2, add = TRUE, div = 3)
 > points(cand.xy, pch = 16, col = "orange")
@@ -459,9 +441,6 @@ detaching ‘package:MASS’
 > 
 > 
 > cleanEx()
-
-detaching ‘package:MASS’
-
 > nameEx("trmat")
 > ### * trmat
 > 
@@ -474,7 +453,6 @@ detaching ‘package:MASS’
 > 
 > ### ** Examples
 > 
-> data(topo, package="MASS")
 > topo.kr <- surf.ls(2, topo)
 > trsurf <- trmat(topo.kr, 0, 6.5, 0, 6.5, 50)
 > 
@@ -493,7 +471,6 @@ detaching ‘package:MASS’
 > 
 > ### ** Examples
 > 
-> data(topo, package="MASS")
 > topo.kr <- surf.ls(2, topo)
 > variogram(topo.kr, 25)
 > 
@@ -501,8 +478,10 @@ detaching ‘package:MASS’
 > 
 > ### * <FOOTER>
 > ###
+> cleanEx()
+> options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  0.713 0.036 0.776 0 0 
+Time elapsed:  0.184 0.02 0.205 0 0 
 > grDevices::dev.off()
 null device 
           1 

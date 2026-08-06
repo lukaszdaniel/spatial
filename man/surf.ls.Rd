@@ -1,5 +1,5 @@
 % file spatial/man/surf.ls.Rd
-% copyright (C) 1994-9 W. N. Venables and B. D. Ripley
+% copyright (C) 1994-2026 W. N. Venables and B. D. Ripley
 %
 \name{surf.ls}
 \alias{surf.ls}
@@ -48,15 +48,13 @@ and others for internal use only.
 \code{\link{trmat}}, \code{\link{surf.gls}}
 }
 \examples{
-library(MASS)  # for eqscplot
-data(topo, package="MASS")
 topo.kr <- surf.ls(2, topo)
 trsurf <- trmat(topo.kr, 0, 6.5, 0, 6.5, 50)
-eqscplot(trsurf, type = "n")
+plot(trsurf, type = "n", asp = 1)
 contour(trsurf, add = TRUE)
 points(topo)
 
-eqscplot(trsurf, type = "n")
+plot(trsurf, type = "n", asp = 1)
 contour(trsurf, add = TRUE)
 plot(topo.kr, add = TRUE)
 title(xlab= "Circle radius proportional to Cook's influence statistic")
